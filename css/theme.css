@@ -1,13 +1,11 @@
 :root {
-  --color-primary: goldenrod;
-  --color-primary-light: gold;
-  --color-secondary:lightcoral;
-  --color-sccent:greenyellow;
-  --color-neutral-beige: #e2e2e2;
-  --color-whatever: peachpuff;
+  --color-primary: black;
+  --color-primary-light: #e2e2e2;
+  --color-secondary: white;
+  --color-accent: red;
 
-  --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
-  --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
+  --font-primary: 'Oswald', sans-serif;
+  --font-secondary: 'Lato', sans-serif;
 }
 
 html {
