@@ -1,7 +1,7 @@
 :root {
   --color-primary: black;
-  --color-primary-light: #e2e2e2;
-  --color-secondary: white;
+  --color-primary-light: white;
+  --color-secondary: #e2e2e2;
   --color-accent: red;
 
   --font-primary: 'Oswald', sans-serif;
