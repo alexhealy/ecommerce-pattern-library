@@ -10,7 +10,7 @@ patternbot:
     background: "--color-primary-light"
     accent: "--color-primary-light"
     patterns:
-      brand.logos: "--color-primary-dark"
+      brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
       Lato was selected because it is classic and modern. It will be used for all body copy.
