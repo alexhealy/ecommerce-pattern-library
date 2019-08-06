@@ -8,7 +8,7 @@ patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:400,700&display=swap"
   colors:
     background: "--color-primary-light"
-    accent: "--color-primary-light"
+    accent: "--color-secondary"
     patterns:
       brand.logos: "--color-primary-light"
   rationales:
