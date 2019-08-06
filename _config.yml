@@ -7,7 +7,7 @@ patternbot:
     Sunniez is a sunglasses brand for freewilling individuals seeking stylish and hip sunglasses. With its affordable price and multiple designs, you'll never be out of style.
   font_url: "https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:400,700&display=swap"
   colors:
-    background: "--color-secondary-light"
+    background: "--color-primary-light"
     accent: "--color-primary-dark"
     patterns:
       brand.logos: "--color-primary-dark"
