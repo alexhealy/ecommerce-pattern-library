@@ -2,4 +2,23 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Sunniez"
+  description: |
+    Sunniez is a sunglasses brand for freewilling individuals seeking stylish and hip sunglasses. With its affordable price and multiple designs, you'll never be out of style.
   font_url: "https://fonts.googleapis.com/css?family=Lato:400,700|Oswald:400,700&display=swap"
+  colors:
+    background: "--color-secondary-light"
+    accent: "--color-primary-dark"
+    patterns:
+      brand.logos: "--color-primary-dark"
+  rationales:
+    typefaces.primary: |
+      Lato was selected because it is classic and modern. It will be used for all body copy.
+    typefaces.secondary: |
+      Oswald is used for highlighting text: headings, buttons, banners, etc.
+    colors.primary: |
+      These primary colours are used because they keep the UI design clean. They will be used for text and foregrounds.
+    colors.secondary: |
+      The secondary colour is more neautral, which will be used for less important information and maybe backgrounds.
+    colors.accent: |
+      This bold accent colour is used to highlight important information and create a pop of colour in order to draw the viewers attention.
