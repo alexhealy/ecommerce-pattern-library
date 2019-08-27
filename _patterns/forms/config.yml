@@ -1,0 +1,21 @@
+title: "Forms"
+description: |
+  Forms allow the user to fill out their information needed in order to finalize or complete their user experience.
+patterns:
+  data-list:
+    title: "Data List"
+    description: |
+      Data list allows the user to scroll through a set of options and choose only one.
+    width: "12em"
+  date-picker:
+    title: "Date Picker"
+    description: |
+      The date picker allows the user to easily choose the time or date that they are looking for.
+  radio-button-form:
+    title: "Radio Button Form"
+    description: |
+      The radio button form is to allow the user to choose only one of a set of mutually exclusive options.
+  let-us-know-form:
+    title: "Let us know Form"
+    description: |
+      The let us know form allows the user to type out a longer sentance rather than choosing a premade option.

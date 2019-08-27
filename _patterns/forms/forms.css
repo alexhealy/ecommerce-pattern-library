@@ -1,0 +1,40 @@
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before,
+.is-validated:invalid,
+.is-validated[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #c33;
+  color: #fff;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message,
+.is-validated:invalid + .error-message,
+.is-validated:invalid + label + .error-message {
+  display: block;
+}
+
+[type="radio"] + label::before {
+  border-color: var(--color-primary-light);
+}
+
+[type="radio"]:checked + label::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Ccircle fill='var(--color-primary)' cx='128' cy='128' r='70.4'/%3E%3C/svg%3E")
+}
+
+[type="radio"] + label::before {
+  border-color: var(--color-accent);
+  background-color: var(--color-accent);
+  margin-right: 1em;
+  top: 0;
+}

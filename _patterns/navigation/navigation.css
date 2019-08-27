@@ -1,0 +1,8 @@
+ul.breadcrumb li a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: var(--color-accent);
+}
