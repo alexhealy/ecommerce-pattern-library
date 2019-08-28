@@ -10,8 +10,4 @@ patterns:
   footer-social-icons:
     title: "Footer"
     description: |
-      This navogation is to be used at the bottom of every page.
-  radio-button-form:
-    title: "Radio Button Form"
-    description: |
-      The radio button form
+      This navogation is to be used at the bottom of every page, and allows the user to be brought to the desired social link.
