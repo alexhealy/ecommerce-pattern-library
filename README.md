@@ -23,7 +23,7 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 ## Project description & context
 
 Write a description of what your website is selling and what it does. This is so someone else who is coding your website can understand what it is about.
-
+This particular project was to create a complete eCommerce website. A pattern library was created which organizes and separates the different areas of content individually, that can later be brought together in the main html file. Each page including the index.html and products.html are to be created, along with
 ---
 
 ## To extract a pattern from patternbot
