@@ -45,6 +45,7 @@ Netlify URL:
 
 ## Collaborators
 - [@thomasjbradley](https://github.com/thomasjbradley)
+- [@nilababaei](https://github.com/nilababaei)
 
 ---
 ## Copyright Notice
