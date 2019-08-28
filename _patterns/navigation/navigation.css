@@ -6,7 +6,3 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: var(--color-accent);
 }
-
-.wrapper {
-  position: absolute;
-}

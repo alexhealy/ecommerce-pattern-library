@@ -1,9 +1,8 @@
 title: "Banners"
 description: |
-  The banners are used to showcase the websites most important features. Banners can also be combined with buttons, images, and the header.
+  The banners are used to showcase the websites most important features. Banners can also be combined with buttons and images.
 patterns:
   banner:
-    title: "Call To Action"
+    title: "Main Banner"
     description: |
-      A call to action banner is to be used on the home page. The matching button must be placed on this banner, bring the user to the linked page.
-    width: "12em"
+      A call to action banner is to be used on the home page. The matching button must be placed on this banner, bringing the user to the linked page.
