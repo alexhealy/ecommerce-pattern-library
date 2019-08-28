@@ -13,3 +13,44 @@ patterns:
     description: |
       The ghost button is specifically for banners, where it will be placed in front of busy images.
     background: "--color-secondary"
+    fields:
+      - name: text
+        type: string
+        example: "Continue"
+      - name: url
+        type: url
+        example: "#"
+  banner-btn:
+    title: "Banner Button"
+    description: |
+      This button is to be used only on banners, it is a call to action button bringing the user to the linked page.
+    background: "--color-secondary"
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: url
+        example: "/products/"
+  light:
+    title: "Light"
+    description: |
+      This button is to be used for a call-to-action banner in order to view a specific product that is being advertised.
+    background: "--color-secondary"
+  card-btn:
+    title: "Card Button"
+    description: |
+      This button is to be used on the product page to link the user to the detailed product page.
+    background: "--color-secondary"
+    fields:
+      - name: text
+        type: string
+        example: "View Product"
+      - name: url
+        type: url
+        example: "#"
+  add-cart-btn:
+    title: "Add to Cart"
+    description: |
+      This button is for the user to add the product to their cart, followed by the checkout form.
+    background: "--color-secondary"

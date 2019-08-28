@@ -1,5 +1,5 @@
 <div class="best-sellers-card text-center pad-t-2">
-  <img class="img-flex" src="/images/sunglasses-1.jpg" alt="">
-  <h2 class="pad-t">SWEET DREAMS</h2>
-  {% pattern buttons/card-btn %}
+  <img class="img-flex" src="/images/{{include.image}}" alt="">
+  <h2 class="pad-t">{{include.text}}</h2>
+  {% pattern buttons/card-btn text="Shop" url="/products/" %}
 </div>

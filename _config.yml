@@ -22,3 +22,17 @@ patternbot:
       The secondary colour is more neautral, which will be used for less important information and maybe backgrounds.
     colors.accent: |
       This bold accent colour is used to highlight important information and create a pop of colour in order to draw the viewers attention.
+
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
+
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

@@ -1,18 +1,50 @@
 title: "Cards"
 description: |
    The cards work together in grids and can be combined with buttons and images.
+
 patterns:
   bestsellers-card:
     title: "Best Sellers Card"
     description: |
       The best sellers card is to be used on the home page. It is a card used to attract the user to the products.
     width: "12em"
-product-detail-card:
-  title: "Product Detail Card"
-  description: |
-    The product detail card is used for when the user is looking for more descriptive information about the product, and leads the user to directly purchase the product.
-  width: "12em"
+    fields:
+      - name: text
+        type: string
+        example: "SWEET DREAMS"
+      - name: image
+        type: string
+        example: "sunglasses-1.jpg"
+  product-detail-card:
+    title: "Product Detail Card"
+    description: |
+      The product detail card is used for when the user is looking for more descriptive information about the product, and leads the user to directly purchase the product.
+    fields:
+      - name: header
+        type: string
+        example: "SWEET DREAMS"
+      - name: price
+        type: string
+        example: "$50"
+      - name: barcode
+        type: string
+        example: "#754939"
+      - name: image
+        type: string
+        example: "sunglasses-1.jpg"
+      - name: barcode
+        type: string
+        example: "#754939"
+      - name: description
+        type: string
+        example: "These versatile vintage sunnies work on a wide variety of face sizes and shapes. Featuring a luxe metal and PC injection frame, these sunnies are perfectly shaped to contour your face."
   product-card:
     title: "Product Card"
     description: |
        The product card is to be used on the products list page, showing all of the available products in order.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product

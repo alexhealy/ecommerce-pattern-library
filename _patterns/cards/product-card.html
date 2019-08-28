@@ -1,5 +1,5 @@
 <div class="productcard text-center pad-t-2">
-  <img class="img-flex" src="/images/sunglasses-1.jpg" alt="">
-  <h2 class="pad-t">SWEET DREAMS / $30</h2>
-  {% pattern buttons/card-btn %}
+  <img class="img-flex" src="{{include.data.image}}" alt="">
+  <h2 class="pad-t">{{include.data.name}} / {{include.data.price}}</h2>
+  {% pattern buttons/card-btn text="View Product" url=include.data.url %}
 </div>

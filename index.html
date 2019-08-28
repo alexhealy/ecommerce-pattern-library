@@ -1,5 +1,12 @@
 ---
 layout: default
+highlight_nav: home
 ---
 
-<h1>Home!</h1>
+{% pattern banners/banner button_text="Shop Now" button_url="/products/" heading="NEW ARRIVALS" text="SIZZELING SUMMER - HOTTEST NEW TRENDS." image="banner-1.jpg" %}
+<div class="pad-t-2 pad-b-2">
+  {% pattern sections/card-section %}
+</div>
+<div class="pad-b-2">
+  {% pattern banners/banner button_text="Learn More" button_url="#" heading="TRY AT HOME" text="WITH VIRTUAL TRY-ON TECHNOLOGY" image="sunglasses-10.jpeg" %}
+</div>

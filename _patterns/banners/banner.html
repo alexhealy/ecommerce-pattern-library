@@ -1,8 +1,12 @@
 <div class="relative" role="banner">
-  <img class="img-flex" src="/images/banner-1.jpg" alt="Image of a girl wearing glasses">
-</div>
-<div class="absolute pin-c text-center banner-color">
-  <h2>NEW ARRIVALS</h2>
-  <p>SIZZELING SUMMER - HOTTEST NEW TRENDS.</p>
-  {% pattern buttons/banner-btn %}
+  <div>
+    <img class="img-flex" src="/images/{{include.image}}" alt="Image of a girl wearing glasses">
+  </div>
+  <div class="absolute pin-c text-center banner-color">
+    <h2>{{include.heading}}</h2>
+    <p>{{include.text}}</p>
+    {% if include.button_url %}
+      {% pattern buttons/banner-btn text=include.button_text url=include.button_url %}
+    {% endif %}
+  </div>
 </div>

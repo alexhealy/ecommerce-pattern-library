@@ -6,3 +6,21 @@ patterns:
     title: "Main Banner"
     description: |
       A call to action banner is to be used on the home page. The matching button must be placed on this banner, bringing the user to the linked page.
+    fields:
+      - name: heading
+        type: string
+        example: "NEW ARRIVALS"
+      - name: text
+        type: string
+        example: "SIZZELING SUMMER - HOTTEST NEW TRENDS."
+      - name: image
+        type: string
+        example: "banner-1.jpg"
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
