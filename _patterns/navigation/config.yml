@@ -1,0 +1,17 @@
+title: "Navigation"
+description: |
+   A navigation is an essential component to a website since it allows users to instantly access the menu and easily find what they want on your site.
+patterns:
+  data-list:
+    title: "Top Navigation"
+    description: |
+      The top navigation allows
+    width: "12em"
+  date-picker:
+    title: "Date Picker"
+    description: |
+      The date picker allows the user to easily choose the time or date that they are looking for.
+  radio-button-form:
+    title: "Radio Button Form"
+    description: |
+      The radio button form
